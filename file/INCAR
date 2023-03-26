@@ -1,0 +1,13 @@
+########### constant tag ########################################
+ ISTART    = 0          ! job   : 0-new  1-cont  2-samecut
+ ICHARG    = 2          ! charge: 1-file 2-atom 10-const
+ ISPIN     = 2          ! spin polarized calculation?
+ ISMEAR    = 0       ! 0:Gaussian -1:Fermi -5:Tetrahedron method
+ SIGMA     = 0.1     ! broadening (eV) 
+ NELM      = 100      ! maximum number of electronic SC steps
+ NELMIN    = 8         ! minimum number of electronic SC steps
+ NELMDL    = -8        ! number of non-selfconsistent steps at the beginning
+ LWAVE     = F          ! write WAVECAR
+ LCHARG    = F        !write CHGCAR
+ LORBIT    = 11
+ ISIF      = 2         !stress and relaxation        
